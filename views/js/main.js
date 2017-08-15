@@ -561,13 +561,14 @@ document.addEventListener('DOMContentLoaded', function() {
   //Declared the movingPizzas outside the loop.
   var movingPizzas = document.getElementById("movingPizzas1");
   //Declared elem in the for loop to stop creating it everytime
-  for (var i = 0, elem; i < 24; i++) {
+  for (var i = 0, elem; i < 32; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
-    elem.basicLeft = (i % cols) * s;
+    //changed this to style.left because of the translate usage above.
+    elem.style.left = (i % cols) * s + 'px';
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
    	movingPizzas.appendChild(elem);
     console.log(elem.length);
