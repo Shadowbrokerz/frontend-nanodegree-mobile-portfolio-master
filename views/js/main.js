@@ -562,7 +562,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var movingPizzas = document.getElementById("movingPizzas1");
   //Declared elem in the for loop to stop creating it everytime
   for (var i = 0, elem; i < 32; i++) {
-    var elem = document.createElement('img');
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
