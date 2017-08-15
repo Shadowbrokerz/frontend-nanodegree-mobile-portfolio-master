@@ -559,7 +559,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   //Declared the movingPizzas outside the loop.
-  var movingPizzas = document.getElementsById("movingPizzas1");
+  var movingPizzas = document.getElementById("movingPizzas1");
   //Declared elem in the for loop to stop creating it everytime
   for (var i = 0, elem; i < 24; i++) {
     var elem = document.createElement('img');
