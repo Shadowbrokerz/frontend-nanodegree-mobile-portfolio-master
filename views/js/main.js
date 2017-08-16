@@ -561,7 +561,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //Declared the movingPizzas outside the loop.
   var movingPizzas = document.getElementById("movingPizzas1");
   //Declared elem in the for loop to stop creating it everytime
-  for (var i = 0, elem; i < 32; i++) {
+  for (var i = 0, elem; i < (Math.ceil(screen.height / s) * cols); i++) {
     elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
