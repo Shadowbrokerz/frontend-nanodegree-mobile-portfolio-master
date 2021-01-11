@@ -3,10 +3,10 @@
 * * *
 * #### Cloning the repository
     ```
-    $ git clone https://github.com/Shadowbrokerz/frontend-nanodegree-mobile-portfolio-master.git
+    $ git clone https://github.com/acicco/frontend-nanodegree-mobile-portfolio-master.git
     ```
 * #### Go to the online hosted version
-    https://shadowbrokerz.github.io/frontend-nanodegree-mobile-portfolio-master
+    https://acicco.github.io/frontend-nanodegree-mobile-portfolio-master
 
 
 ## Optimisations
